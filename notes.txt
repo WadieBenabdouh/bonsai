@@ -1,19 +1,26 @@
 TODO<!-- <i class="fa-solid fa-check"></i> -->
 
 
-All Templates
 
-Unlimited Clients & Projects
+Everything in Starter and Professional plus...
 
-Invoicing & Payments
+Subcontractor Management
 
-Proposals & Contracts
+Hiring Agreement Templates (1099 contracts)
 
-Tasks & Time Tracking
+Subcontractor Onboarding
 
-Client CRM
+Talent Pool
 
-Expense Tracking
+3 Team Seats (additional seats $9/month)
+
+Accountant Access
+
+Connect Multiple Bank Accounts
+
+Unlimited Subcontractors
+
+Unlimited Project Collaborators
 
 Up to 5 Project Collaborators
 /* TODO a (ul li) of the perks of the offers */
