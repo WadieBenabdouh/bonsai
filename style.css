@@ -147,3 +147,6 @@ main .cards{
     background-color: #00b289;
     margin: 3em 0;
 }
+.perks a:hover{
+    background-color: #07755c;
+}
