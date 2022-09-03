@@ -92,3 +92,6 @@ main .cards{
     text-align: center;
     font-size: 25px;
 }
+/* TODO a (ul li) of the perks of the offers */
+/* no "nav" required. */
+/* don't forge to adjust their margin-inline to match the hr line, usually "margin-inline: 20px;" */
