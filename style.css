@@ -74,10 +74,22 @@ main .price-header{
 main .cards{
     display: flex;
     justify-content: space-evenly;
-    margin: 0 7em;
+    margin: 4em 7em;
 }
 .card{
     height: 30em;
     width: 20em;
     outline: red solid 2px;
+}
+.offer-title{
+    margin-left: 20px;
+    margin-top: 5em;
+}
+.offer-title > *{
+    margin: 5px 0;
+}
+.price{
+    margin: 2em 0;
+    text-align: center;
+    font-size: 25px;
 }
