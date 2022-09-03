@@ -83,7 +83,10 @@ main .cards{
 .card{
     height: 1028px;
     width: 20em;
-    outline: red solid 2px;
+    /* outline: red solid 2px; */
+    border: 1px gray solid;
+    background-color: #fff;
+    border-radius: 10px;
 }
 .offer-title{
     margin-left: 20px;
@@ -110,7 +113,7 @@ main .cards{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    outline: purple solid 2px;
+    /* outline: purple solid 2px; */
     width: 16.5em;
 }
 
@@ -160,9 +163,18 @@ section{
     justify-content: center;
     align-items: center;
 }
+.extra-container h4{
+    font-family: tahoma;
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: gray;
+}
 .tiles{
     display: flex;
     flex-direction: column;
+
     outline: red solid 2px;
     width: 70em;
 }
@@ -177,11 +189,29 @@ section{
     box-shadow: #999898 0px 0px 5px;
     padding: 10px;
     margin-top: 10px;
-    height: 7em;
+    margin-bottom: 10px;
+    height: 8em;
 }
 .tile .head{
     margin: 0 -10em;
 }
 .head > *{
     margin: 10px 0;
+}
+.tile-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tile-price > *{
+        margin-right: -12em;
+        margin-top: 0;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+}
+.tile a{
+    text-decoration: none;
+    color: #00b289;
 }
