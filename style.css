@@ -1,6 +1,7 @@
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/* HEADER */
 .header-container{
     display: flex;
     justify-content: space-around;
@@ -45,4 +46,38 @@ li a{
 .start > :nth-child(2):hover{
     color: #fff;
     background-color: #00a37e;
+}
+/* MAIN */
+main .price-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7em;
+}
+.price-header > *{
+    margin-inline: 20px
+}
+.price-header .toggle{
+    display: flex;
+}
+.toggle .time{
+    padding-inline: 10px;
+    font-size: 20px;
+}
+.toggle :nth-last-child(1){
+    color: #00b289;
+    position: relative;
+    top: -2em;
+    right: 7.5em;
+}
+/* MAIN > CARDS */
+main .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 7em;
+}
+.card{
+    height: 30em;
+    width: 20em;
+    outline: red solid 2px;
 }
