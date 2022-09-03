@@ -1,1 +1,21 @@
 TODO<!-- <i class="fa-solid fa-check"></i> -->
+
+
+All Templates
+
+Unlimited Clients & Projects
+
+Invoicing & Payments
+
+Proposals & Contracts
+
+Tasks & Time Tracking
+
+Client CRM
+
+Expense Tracking
+
+Up to 5 Project Collaborators
+/* TODO a (ul li) of the perks of the offers */
+/* no "nav" required. */
+/* don't forge to adjust their margin-inline to match the hr line, usually "margin-inline: 20px;" */
