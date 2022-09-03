@@ -245,3 +245,31 @@ section{
 .wrapper a:hover{
     background-color: #07755c;
 }
+/* FAQ */
+.faq{
+    outline: red solid 1px;
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: purple solid 2px;
+}
+.questions{
+    outline: blue 2px solid;
+    width: 50em;
+    /* height: 30em; */
+}
+.questions ul{
+    outline: green 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+.questions ul li{
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.8;
+}
