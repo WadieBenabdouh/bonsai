@@ -77,13 +77,16 @@ main .cards{
     margin: 4em 7em;
 }
 .card{
-    height: 789px;
+    height: fit-content;
     width: 20em;
     outline: red solid 2px;
 }
 .offer-title{
     margin-left: 20px;
     margin-top: 5em;
+}
+.offer-title h3{
+    font-size: 25px;
 }
 .offer-title > *{
     margin: 5px 0;
@@ -95,12 +98,21 @@ main .cards{
 .perks{
     /* outline: blue solid 2px; */
     margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .tick-bonus{
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    outline: purple solid 2px;
+    width: 16.5em;
 }
+
 #check-mark{
-    outline: green solid 2px;
+    /* outline: green solid 2px; */
+    color: #00a37e;
+    margin-right: 10px;
+    margin-left: 1.5em;
 }
