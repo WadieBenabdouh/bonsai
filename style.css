@@ -246,22 +246,22 @@ section{
     background-color: #07755c;
 }
 /* FAQ */
-.faq{
+/* .faq{
     outline: red solid 1px;
-}
+} */
 .faq-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    outline: purple solid 2px;
+    /* outline: purple solid 2px; */
 }
 .questions{
-    outline: blue 2px solid;
+    /* outline: blue 2px solid; */
     width: 50em;
     /* height: 30em; */
 }
 .questions ul{
-    outline: green 1px solid;
+    /* outline: green 1px solid; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -269,7 +269,12 @@ section{
 }
 .questions ul li{
     margin: 10px 0;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
     opacity: 0.8;
 }
+.questions ul li:hover{
+    cursor: pointer;
+    color: #00a37e;
+}
+/* FOOTER */
