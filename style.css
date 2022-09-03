@@ -150,3 +150,38 @@ main .cards{
 .perks a:hover{
     background-color: #07755c;
 }
+/* SECTION EXTRA */
+section{
+    margin-top: 5em;
+}
+.extra-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tiles{
+    display: flex;
+    flex-direction: column;
+    outline: red solid 2px;
+    width: 70em;
+}
+.tile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* outline: blue solid 2px; */
+    margin: 0 5em;
+    border: 1px gray solid;
+    border-radius: 10px;
+    box-shadow: #999898 0px 0px 5px;
+    padding: 10px;
+    margin-top: 10px;
+    height: 7em;
+}
+.tile .head{
+    margin: 0 -10em;
+}
+.head > *{
+    margin: 10px 0;
+}
