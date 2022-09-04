@@ -1,28 +1,20 @@
-TODO<!-- <i class="fa-solid fa-check"></i> -->
+This project has been one of the most avanced projects that I ever worked on.
+ 
+ //KEY FEATURES:
+  |
+  | 
+  > Line 52 : I did not know we can actually customize the hr line.
+  |
+  |
+  > Line 243 : I liked the design I made for the card.
+  |
+  |
+  > Line 338 : Footer links sometimes could look weird if there's so many links, I invented this method to separate some links from others, by adding this:
 
-
-
-Everything in Starter and Professional plus...
-
-Subcontractor Management
-
-Hiring Agreement Templates (1099 contracts)
-
-Subcontractor Onboarding
-
-Talent Pool
-
-3 Team Seats (additional seats $9/month)
-
-Accountant Access
-
-Connect Multiple Bank Accounts
-
-Unlimited Subcontractors
-
-Unlimited Project Collaborators
-
-Up to 5 Project Collaborators
-/* TODO a (ul li) of the perks of the offers */
-/* no "nav" required. */
-/* don't forge to adjust their margin-inline to match the hr line, usually "margin-inline: 20px;" */
+                        <li>Privacy Policy</li>
+                        <li>Legal</li>
+                        <!-- space here -->
+this                    <li style="margin-top:20px;">Affiliates</li>
+                        <li>Write for Us</li>
+                        <!-- space here -->
+this                    <li style="margin-top:20px;">Comparisons</li>
